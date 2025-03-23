@@ -1,4 +1,4 @@
-# mlops
+# MLOps ML_Pipeline 
 This is MLOps pipeline for following stages:
 Stage 1: EDA report generation and analysis
 Stage 2: Feature Engineering & Explainability
