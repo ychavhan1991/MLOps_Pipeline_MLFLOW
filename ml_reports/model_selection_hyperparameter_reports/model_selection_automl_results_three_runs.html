@@ -1,0 +1,58 @@
+<style>
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    font-family: Arial, sans-serif;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  td:nth-child(2) {
+    font-weight: bold;
+  }
+  .best-model {
+    background-color: #FFD700; /* Gold */
+    font-weight: bold;
+  }
+</style>
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Model</th>
+      <th>Accuracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td style="color: #ff5733;">XGBoost</td>
+      <td>0.805</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td style="color: #3498db;">Random Forest</td>
+      <td>0.812</td>
+    </tr>
+    <tr class="best-model">
+      <td>2</td>
+      <td style="color: #27ae60;">Gradient Boosting</td>
+      <td>0.835</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td style="color: #8e44ad;">Extra Trees</td>
+      <td>0.810</td>
+    </tr>
+  </tbody>
+</table>
